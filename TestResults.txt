@@ -1,4 +1,46 @@
-? Error: Could not execute "run" due to missing configuration. Would you like to
- create one? (y/N) [1A[19D[99C[1B[2K[1A[2K[G? Error: Could not execute "run" due to missing configuration. Would you like to
- create one? No[1A[15D[95C
-[1BNo WebdriverIO configuration found in "/Users/punyaiathwale/Desktop/Work/RegressionWork/AutomationTest_TravelBooking"
+npx wdio regression/wdio.conf.js --Browser chrome --suite flightBooking                  
+2021-06-10T11:49:33.218Z DEBUG @wdio/config:utils: Couldn't find ts-node package, no TypeScript compiling
+./regression/tests/**/**.test.js
+Print browserName | chrome  & fileName: *.test.js
+
+Execution of 1 spec files started at 2021-06-10T11:49:33.253Z
+
+[0-0] ./regression/tests/**/**.test.js
+[0-0] Print browserName | chrome  & fileName: *.test.js
+[0-0] RUNNING in chrome - /regression/tests/TCFlightBooking/travelTest.test.js
+[0-0] beforeTest Hook
+[0-0] On Page: Welcome to the Simple Travel Agency!
+[0-0] Lets Travel from Paris to Rome
+[0-0] On Page: Flights from Paris to Rome:
+[0-0] Selecting Luftansa Airlines
+[0-0] On Page: Your flight from TLV to SFO has been reserved.
+Lets submit passanger Details 
+[0-0] On Page: Thank you for your purchase today!
+[0-0] afterTest Hook
+[0-0] beforeTest Hook
+[0-0] Verify Id 
+[0-0] afterTest Hook
+[0-0] beforeTest Hook
+[0-0] Verify Id 
+[0-0] afterTest Hook
+[0-0] beforeTest Hook
+[0-0] Verify Id 
+[0-0] afterTest Hook
+[0-0] PASSED in chrome - /regression/tests/TCFlightBooking/travelTest.test.js
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 91.0.4472.77 mac os x #0-0] Spec: /Users/punyaiathwale/Desktop/Work/RegressionWork/pfc-portal/regression/tests/TCFlightBooking/travelTest.test.js
+[chrome 91.0.4472.77 mac os x #0-0] Running: chrome (v91.0.4472.77) on mac os x
+[chrome 91.0.4472.77 mac os x #0-0] Session ID: b2b81ed71ba4804e6d82401021cb2b5f
+[chrome 91.0.4472.77 mac os x #0-0]
+[chrome 91.0.4472.77 mac os x #0-0] Test Flight Booking Functionality
+[chrome 91.0.4472.77 mac os x #0-0]    ✓ Test1 - User could able to select flight and do payment 
+[chrome 91.0.4472.77 mac os x #0-0]    ✓ Test2 - Verify Booking Id Generated for User
+[chrome 91.0.4472.77 mac os x #0-0]    ✓ Test3 - Verify Booking details shows - Encrypted Card number 
+[chrome 91.0.4472.77 mac os x #0-0]    ✓ Test4 - Verify authenticationCode is generated and displayed in Booking details 
+[chrome 91.0.4472.77 mac os x #0-0]
+[chrome 91.0.4472.77 mac os x #0-0] 4 passing (13.3s)
+
+
+Spec Files:      1 passed, 1 total (100% completed) in 00:00:27 
