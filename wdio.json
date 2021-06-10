@@ -1,0 +1,72 @@
+{
+  "pageLoad": 60005,
+  "script": 260005,
+  "implicit": 15005,
+  "pageLoad1": 120005,
+  "script1": 360005,
+  "implicit1": 15005,
+  "retries": 1,
+  "firefox": [
+    {
+      "browserName": "firefox",
+      "port": 5555,
+      "moz:firefoxOptions": {}
+    }
+  ],
+  "firefoxheadless": [
+    {
+      "browserName": "firefox",
+      "port": 5555,
+      "moz:firefoxOptions": {
+        "args": ["-headless"]
+      }
+    }
+  ],
+  "chrome": [
+    {
+      "browserName": "chrome",
+      "port": 5555,
+      "goog:chromeOptions": {
+        "args": ["--start-fullscreen"]
+      }
+    }
+  ],
+  "chromeheadless": [
+    {
+      "browserName": "chrome",
+      "port": 5555,
+      "goog:chromeOptions": {
+        "args": [
+          "--start-fullscreen",
+          "--headless",
+          "--zoom=1.0",
+          "--force-device-scale-factor=1.0",
+          "--no-sandbox",
+          "--disable-extensions"
+        ]
+      }
+    }
+  ],
+  "chromeheadlessbinary": [
+    {
+      "browserName": "chrome",
+      "port": 5555,
+      "goog:chromeOptions": {
+        "args": [
+          "--start-fullscreen",
+          "--headless",
+          "--zoom=1.0",
+          "--force-device-scale-factor=1.0",
+          "--disable-gpu",
+          "--no-sandbox",
+          "--disable-extensions"
+        ],
+        "binary": "/usr/bin/google-chrome"
+      }
+    }
+  ],
+  "suites": {
+    "flightBooking": ["./regression/tests/*FlightBooking/**/*.test.js"]
+    
+  }
+}
