@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623325787547' stop='1623325800834'>
-    <name>Test Flight Booking Functionality</name>
+    <name>Test Flight Booking Functionality Testcases</name>
     <title>Test Flight Booking Functionality</title>
     <test-cases>
         <test-case start='1623325787548' status='passed' stop='1623325800766'>
