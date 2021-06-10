@@ -2,7 +2,10 @@ Pre-requisute -
      Install node version above 12
      Install @wdio/cli
      
-Command to start test exection. -
+Copy Actual Testcase code file at location -  home/regression/TCFlightBooking/travelTest.test.js
+     
+Command to run test exection -
+     cd home
      npx wdio regression/wdio.conf.js --Browser chrome --suite flightBooking
   
 Output  - 
