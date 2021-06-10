@@ -1,0 +1,4 @@
+? Error: Could not execute "run" due to missing configuration. Would you like to
+ create one? (y/N) [1A[19D[99C[1B[2K[1A[2K[G? Error: Could not execute "run" due to missing configuration. Would you like to
+ create one? No[1A[15D[95C
+[1BNo WebdriverIO configuration found in "/Users/punyaiathwale/Desktop/Work/RegressionWork/AutomationTest_TravelBooking"
